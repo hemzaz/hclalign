@@ -6,7 +6,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/oferchen/hclalign/cli"
+	"github.com/hemzaz/hclalign/cli"
 	"github.com/spf13/cobra"
 )
 

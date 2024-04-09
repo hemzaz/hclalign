@@ -11,10 +11,9 @@ import (
 	"runtime"
 	"sync"
 
-	"github.com/hashicorp/hcl/v2"
 	"github.com/hashicorp/hcl/v2/hclwrite"
-	"github.com/oferchen/hclalign/hclprocessing"
-	"github.com/oferchen/hclalign/patternmatching"
+	"github.com/hemzaz/hclalign/hclprocessing"
+	"github.com/hemzaz/hclalign/patternmatching"
 	"golang.org/x/sync/semaphore"
 )
 

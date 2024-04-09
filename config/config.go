@@ -5,8 +5,8 @@ package config
 
 import (
 	"fmt"
-	"github.com/oferchen/hclalign/fileprocessing"
-	"github.com/oferchen/hclalign/patternmatching"
+	"github.com/hemzaz/hclalign/fileprocessing"
+	"github.com/hemzaz/hclalign/patternmatching"
 )
 
 // Config stores configuration for processing HCL files.
@@ -53,4 +53,3 @@ func ProcessTargetDynamically(target string, criteria []string, order []string) 
 	// Further processing logic to be implemented in fileprocessing.ProcessFiles
 	return fileprocessing.ProcessFiles(target, criteria, order)
 }
-

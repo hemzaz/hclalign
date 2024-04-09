@@ -5,7 +5,7 @@ package cli
 
 import (
 	"fmt"
-	"github.com/oferchen/hclalign/config"
+	"github.com/hemzaz/hclalign/config"
 	"github.com/spf13/cobra"
 )
 
@@ -35,4 +35,3 @@ func RunE(cmd *cobra.Command, args []string) error {
 	// Process target dynamically
 	return config.ProcessTargetDynamically(target, criteria, order)
 }
-
